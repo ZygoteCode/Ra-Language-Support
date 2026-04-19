@@ -1,31 +1,31 @@
 # RA Language Support
 
-Supporto VS Code per i file `.ra`.
+VS Code support for `.ra` files.
 
-## Include
+## Features
 
-- syntax highlighting basato sulle regole del lexer/parser
-- auto-closing per parentesi, graffe, quadre e apici
-- completamenti per keyword, tipi e blocchi
-- snippet per classi, struct, trait, interface, enum, funzioni, controllo di flusso, `try/catch/finally`, `retry`, `extend`, `impl`
+- syntax highlighting based on lexer/parser rules  
+- auto-closing for parentheses, braces, brackets, and quotes  
+- completions for keywords, types, and blocks  
+- snippets for classes, structs, traits, interfaces, enums, functions, control flow, `try/catch/finally`, `retry`, `extend`, `impl`  
 
-## Regole coperte
+## Covered Rules
 
-Keyword principali: abstract, and, as, break, case, catch, class, const, continue, default, del, delay, do, elif, else, enum, extend, false, final, finally, fn, for, goto, if, impl, in, interface, let, nameof, not, not in, null, or, override, pass, pub, ret, retry, self, static, step, struct, super, switch, times, to, trait, true, try, typeof, var, while, with, yield.
+Main keywords: abstract, and, as, break, case, catch, class, const, continue, default, del, delay, do, elif, else, enum, extend, false, final, finally, fn, for, goto, if, impl, in, interface, let, nameof, not, not in, null, or, override, pass, pub, ret, retry, self, static, step, struct, super, switch, times, to, trait, true, try, typeof, var, while, with, yield, import, from.
 
-Tipi built-in: int, number, long, float, double, uint, ulong, short, ushort, int128, uint128, decimal, byte, bool, string, char, void, object, any.
+Built-in types: int, number, long, float, double, uint, ulong, short, ushort, int128, uint128, decimal, byte, bool, string, char, void, object, any.
 
-## Avvio rapido
+## Quick Start
 
-1. Apri la cartella in VS Code
-2. Premi `F5`
-3. Apri un file `.ra`
+1. Open the folder in VS Code  
+2. Press `F5`  
+3. Open a `.ra` file  
 
-## Note
+## Notes
 
-La grammatica evidenzia anche:
-- commenti `//`, `#`, `---`, `/* */`, `<!-- -->`
-- stringhe con apici singoli, doppi e backtick
-- interpolazione `$Ellipsis`
-- numeri interi e floating con prefissi e suffissi
-- operatori e punteggiatura del linguaggio
+The grammar also highlights:
+- comments `//`, `#`, `---`, `/* */`, `<!-- -->`  
+- strings with single quotes, double quotes, and backticks  
+- interpolation `$Ellipsis`  
+- integers and floating-point numbers with prefixes and suffixes  
+- language operators and punctuation  
